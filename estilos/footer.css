@@ -1,0 +1,19 @@
+.rodape{
+    background: var(--back-cor);
+    height: 200px;
+}
+
+.lista-contatos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.lista-contatos li{
+    list-style: none;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
